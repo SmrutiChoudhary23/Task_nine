@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookings</title>
+    <link rel="stylesheet" href="Task4.css">
+</head>
+<body>
+    <head>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="">Bookings</a></li>                
+            <li><a href="Contact.html">Contact</a></li>
+        </nav>
+    </head>
+    <main>
+        <img src="Home_img.jpeg" alt="" id="home_img">
+        <div id="bookings_text">
+            <div id="booking_form">
+                <h1 style="text-align: center; color: rgb(37, 22, 0); font-size: 40px;">Secure your favourite spot!</h1>
+                <form id="bookingForm">
+                    <p style="font-size: 25px; color: rgb(37, 22, 0); margin: 30px">Note: We are open from 10am to 11pm</p>
+                    <input type="text" class="input_box" id="box1" placeholder="Enter Name">
+                    <input type="email" class="input_box" id="box2" placeholder="Enter Email">
+                    <input type="number" min="1" class="input_box" id="box3" placeholder="Enter Mobile number">
+                    <input type="number" min="1" max="82" class="input_box" id="box4" placeholder="Enter number of members (1-82)">
+                    <input type="date" class="input_box" id="box5" placeholder="Enter date of Dine-in">
+                    <input type="time" class="input_box" id="box6" placeholder="Enter time of Dine-in">
+                    <p style="color: rgb(37, 22, 0); font-size: 25px; margin: 10px; margin-top: 20px">Choose your table according to number of members:</p>
+                    <input type="checkbox" class="table_no" style="margin-left: 10px">1
+                    <input type="checkbox" class="table_no">2
+                    <input type="checkbox" class="table_no">3
+                    <input type="checkbox" class="table_no">4
+                    <input type="checkbox" class="table_no">5
+                    <input type="checkbox" class="table_no">6
+                    <input type="checkbox" class="table_no">7
+                    <input type="checkbox" class="table_no">8
+                    <input type="checkbox" class="table_no">9
+                    <input type="checkbox" class="table_no">10
+                    <input type="checkbox" class="table_no">11
+                    <input type="checkbox" class="table_no">12
+                    <button style="background-color: rgb(37, 22, 0); color: white; border-radius: 20px; padding-bottom: 40px; padding-top: 20px; height: 20px; width: 250px; font-size: 20px; position: absolute; left: 650px; bottom: 40px;">Book and Pay</button>
+                    <div id="seat_info">
+                        <li>Seat 1, 2, 9 & 10: 6 members</li>
+                        <li>Seat 4 & 5: 1-4 members</li>
+                        <li>Seat 6, 7, 8, 11 & 12: 8 members</li>
+                        <li>Seat 3: 10 members</li>
+                    </div>
+                    <img src="table_structure.png" alt="table structure" style="height: 620px; width: 420px; position: absolute; left: 1030px; bottom: 15px; border-radius: 20px; border:3px solid rgb(37, 22, 0)">
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="Task4.js"></script>
+</body>
+</html>

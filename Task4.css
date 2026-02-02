@@ -1,0 +1,231 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: Calibri;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content:right;
+    background-color: rgb(37, 22, 0);
+    color: white;
+}
+nav li
+{
+    font-size: 40px;
+    list-style: none;
+    margin: 20px;
+}
+li a
+{
+    text-decoration: none;
+    color: white;
+}
+nav li a:hover
+{
+    background-color: white;
+    color: rgb(37, 22, 0);
+    cursor: pointer;
+}
+#home_img
+{
+    position: relative;
+    height: 878px;
+    width: 2048px;
+}
+#home_text, #about_text
+{
+    position: absolute;
+    top: 380px;
+    left: 350px;
+    color: white;
+}
+#home_text h1
+{
+    font-size: 125px;
+}
+#home_text p
+{
+    font-size: 35px;
+}
+#dishes_buttons
+{
+    display: flex;
+    width: 700px;
+    gap: 20px;
+    position: absolute;
+    top: 650px;
+    left: 350px;
+}
+#dishes_buttons li
+{
+    list-style-type: none;
+}
+#dishes_buttons button
+{
+    font-size: 35px;
+    background-color: white;
+    color: rgb(37, 22, 0);
+    padding: 20px;
+    border-radius: 10px; 
+}
+#dishes_buttons button:hover
+{
+    background-color: rgb(37, 22, 0);
+    color: white;
+}
+#dish_box
+{
+    position: absolute;
+    top: 780px;   
+    left: 350px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background: rgba(37, 22, 0, 0.85); 
+    padding: 25px 40px;
+    border-radius: 15px;
+    visibility: hidden;
+}
+#dish_name
+{
+    min-width: 350px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+#prev, #next
+{
+    font-size: 30px;
+    background-color: white;
+    color: rgb(37, 22, 0);
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Calibri;
+}
+
+#prev:hover, #next:hover
+{
+    background-color: rgb(37, 22, 0);
+    color: white;
+}
+#about_text, #services_text, #bookings_text, #contact_text
+{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    border: 2px solid white;
+    height: 700px;
+    width: 1500px;
+    background-color: rgba(37, 22, 0, 0.5);
+    margin: 20px;
+}
+#about_text h1
+{
+    padding: 20px;
+    font-size: 70px;
+}
+#about_text p
+{
+    font-size: 35px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 55px;
+}
+.service_box
+{
+    height: 120px;
+    width: 1100px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px;
+    color:rgb(37, 22, 0);
+}
+.service_box p
+{
+    font-size: 20px;
+}
+#services_box2
+{
+    position: absolute;
+    top: 180px;
+    left: 350px;
+}
+#services_box3
+{
+    position: absolute;
+    top: 355px;
+}
+#services_box4
+{
+    position: absolute;
+    top: 535px;
+    left: 350px;
+}
+#booking_form
+{
+    height: 650px;
+    width: 1000px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.input_box
+{
+    display: block;
+    margin: 10px;
+    height: 50px;
+    width: 500px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid rgb(37, 22, 0);
+    color: rgb(37, 22, 0);
+}
+#box1
+{
+    margin-top: 25px;
+}
+.table_no
+{
+    color: rgb(37, 22, 0);
+    font-size: 30px;
+    margin: 5px;
+}
+#seat_info
+{
+    color: rgb(37, 22, 0);
+    font-size: 25px;
+    position: absolute;
+    left: 660px;
+    bottom: 120px;
+    list-style: none;
+}
+#contact_text h1
+{
+    padding: 20px;
+    font-size: 70px;
+    color: white;
+}
+#contact_text li
+{
+    list-style-type: none;
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 40px;
+}
